@@ -3,9 +3,7 @@ from account import Account
 
 if __name__ == "__main__":
     print("Hola Mundo")
-    car = Car("adabel","25252",Account("253535","kjbiubjk"))
-   
+    
+    car = Car("AMS234", Account("Andres Herrera", "ANDA876"))
     print(vars(car))
     print(vars(car.driver))
-
-    
